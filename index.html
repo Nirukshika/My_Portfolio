@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirukshika Wijesiri - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Nirukshika Wijesiri</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="text-primary">Nirukshika Wijesiri</span></h1>
+                <p class="hero-subtitle"> BEng (Hons) Software Engineering Undergraduate at University of Westminster(IIT).</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Nirukshika?tab=repositories" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nirukshika-wijesiri-8229662b5/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:nirukshikasewwandi@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:0771486360" class="social-link">
+                        <i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/nirukshika.jpeg" alt="Profile picture">
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I am a Software Engineering student with a strong interest in full-stack development and innovative problem-solving. My academic journey and projects showcase my passion for designing efficient and user-focused software solutions. I am eager to expand my skill set, embrace new challenges, and contribute to impactful projects. Actively seeking an internship to further develop my technical expertise, collaborate with skilled professionals, 
+                        and gain valuable industry experience.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Git</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <!--<p>Creating responsive and interactive user interfaces using modern HTML, CSS, and JavaScript frameworks.</p>-->
+                    <div class="tags">
+                        <span class="tag tag-alt">HTML</span>
+                        <span class="tag tag-alt">CSS</span>
+                        <span class="tag tag-alt">JavaScript</span>
+                        <span class="tag tag-alt">React</span>
+                        <span class="tag tag-alt">Next.js</span>
+                        <span class="tag tag-alt">Flutter</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>UI/UX Design</h3>
+                    <!--<p>Designing intuitive and visually appealing user experiences with a focus on usability and accessibility.</p>-->
+                    <div class="tags">
+                        <span class="tag tag-alt">Figma</span>
+                       
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <!--<p>Building server-side applications and APIs to support frontend functionality and manage data.</p>-->
+                    <div class="tags">
+                        <span class="tag tag-alt">Node.js</span>
+                        <span class="tag tag-alt">Firebase</span>
+                        <span class="tag tag-alt">PHP</span>
+                        <span class="tag tag-alt">javaFx</span>
+                        <span class="tag tag-alt">MongoDB</span>
+                        <span class="tag tag-alt">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <!--<div class="project-image">
+                        <img src="https://via.placeholder.com/500x300" alt="E-commerce Website">
+                    </div>-->
+                    <div class="project-content">
+                        <h3 class="project-title">Diabetes Management App(MyBete App)</h3>
+                        <p class="project-description">Design Mind Relax feature (Full stack Developer) MyBete is a mobile application that helps users to manage their diabetes by tracking blood sugar levels, food intake, and physical activities.
+                            Include sleep timer,mind relax music section and measure depression level with questions.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-sm">Flutter</span>
+                            <span class="tag tag-sm">Firebase</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/Nirukshika/MyBete-App" class="btn btn-sm btn-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!--<div class="project-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Task Management App">
+                    </div>-->
+                    <div class="project-content">
+                        <h3 class="project-title">Good Health and Well Being(Website)</h3>
+                        <p class="project-description">This project contains  for an interactive website focused on promoting good health and well-being.it offers in-depth information on mental health, nutrition, and chronic diseases.To engage users, the website includes interactive features like quizzes, infographics, and personal health trackers. 
+                            Built with HTML, CSS, and JavaScript, it's designed for optimal viewing on all devices.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-sm">JavaScript</span>
+                            <span class="tag tag-sm">HTML</span>
+                            <span class="tag tag-sm">CSS </span>
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/Nirukshika/Good-Health_and_Well_Being?tab=readme-ov-file" class="btn btn-sm btn-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!--<div class="project-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Portfolio Website">
+                    </div>-->
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Finance Tracker Application</h3>
+                        <p class="project-description">Designed and developed a robust system to manage personal finance transactions using Python.Created a graphical user interface (GUI) with Tkinter, displaying transactions in a table format with sorting and search capabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-sm">Python</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/Nirukshika/personal-finance-tracker" class="btn btn-sm btn-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <!--<div class="project-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Weather Dashboard">
+                    </div>-->
+                    <div class="project-content">
+                        <h3 class="project-title">Ticket-Management System</h3>
+                        <p class="project-description">This project is a Real-Time Ticket Management System designed to simulate a dynamic ticketing environment with both GUI and CLI interfaces. It is built using Java and incorporates advanced features such as multi-threading, logging, and real-time ticket availability updates.</p>
+                        <div class="project-tags">
+                            <span class="tag tag-sm">Java</span>
+                            <span class="tag tag-sm">javaFx</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/Nirukshika/Ticket-Management-System" class="btn btn-sm btn-outline">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'm currently looking for internship opportunities to enhance my skills and contribute to exciting projects. Feel free to reach out!</p>
+            <div class="contact-grid">
+                <a href="mailto:nirukshikasewwandi@gmail.com" class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>nirukshikasewwandi@gmail.com</p>
+                </a>
+                <a href="https://github.com/Nirukshika?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Nirukshika Wijesiri</p>
+                </a>
+                <a href="https://www.linkedin.com/in/nirukshika-wijesiri-8229662b5/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Nirukshika Wijesiri</p>
+                </a>
+                <a href="tel:0771486360" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h3>Phone Number</h3>
+                    <p>+94 77 148 6360</p>
+                </a>
+            </div>
+            <div class="contact-button">
+                <a href="image/Nirukshika Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">© <span id="current-year"></span> Nirukshika Wijesiri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
